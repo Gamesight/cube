@@ -17,6 +17,8 @@ on:
       - 'yarn.lock'
     branches:
       - 'master'
+      - 'patch/gamesight'
+      - 'patch/gamesight-build'
   pull_request:
     paths:
       - '.github/workflows/push.yml'
